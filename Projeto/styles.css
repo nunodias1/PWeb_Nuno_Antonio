@@ -1,0 +1,264 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+header, nav, section, footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    font-weight: bold;
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+}
+
+.latest-releases .productlr {
+        border: 1px solid #87CEEB;
+        padding: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        text-align: left;
+        align-items: center;
+}
+
+footer {
+    background-color: #87CEEB;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#login-form {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #87CEEB;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+#login-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #333; /* Change to your preferred color */
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    color: white;
+    font-weight: bold;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px;
+    border-radius: 25%;
+    color: #fff;
+    background-color: #87CEEB;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.brand{
+
+    border: 1px solid #87CEEB;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+
+}
+
+.brand h3 img {
+    display: block; /* Isso faz com que a imagem seja tratada como um bloco, permitindo a aplicação de margem */
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    margin-right: 40px; /* Isso adiciona espaço abaixo da imagem */
+}
+
+.sneaker-review-item {
+    border: 1px solid #87CEEB;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sneaker-info {
+    width: 100%; /* Garante que a imagem e o título ocupem toda a largura disponível */
+}
+
+.existing-comments {
+    background-color: #f2f2f2;
+    border: 1px solid #87CEEB;
+    padding: 5px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+}
+
+.comments-section {
+    flex-grow: 1; /* Faz com que a seção de comentários ocupe o espaço restante à direita do formulário */
+    margin-left: 10px; /* Adiciona um pouco de espaço entre o formulário e os comentários */
+}
+
+.comment {
+
+    text-align: left;
+    display: flex;
+
+}
+
+.sneaker-title{
+
+    
+    margin-left: 200px;
+    margin-bottom: 25px;
+
+}
+
+.comment-form{
+
+    margin-left: 200px;
+    
+
+}
+
+.sneaker-shopping h3 {
+    text-align: center;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Certifique-se de que os itens estão alinhados verticalmente */
+}
+
+.product {
+    border: 1px solid #87CEEB; /* Exemplo de borda */
+    padding: 10px;
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px); /* Atribui a cada produto um terço do espaço disponível, ajustando a margem */
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.product h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.purchase-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Espaço entre os ícones */
+}
+
+.purchase-options a {
+    text-decoration: none;
+}
+
+.purchase-options img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.purchase-options p {
+    display: none; /* Esconde o texto se não quiser mostrar os preços ao lado dos ícones */
+}
+
+.product-info{
+
+    background-color: #f2f2f2;
+    border: 1px solid #87CEEB;
+    padding: 5px;
+    margin-bottom: 150px;
+    margin-left: 200px;
+
+}
+
+/* Seus estilos existentes para .comment etc. permanecem inalterados */
+
+
+
